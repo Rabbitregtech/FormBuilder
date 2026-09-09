@@ -1,7 +1,30 @@
 # Release notes
 
+## v1.4.8 (18)
+- Refactored video streaming pipeline to use Fragmented MP4 (fMP4) via ISOBMFF.
+- Consents bug fix
+
+## v1.4.7 (17)
+- Fix text color
+
+## v1.4.6 (16)
+- Fix url builder
+
+## v1.4.5 (15)
+- Added new delegate method postToHostUI.
+
+## v1.4.4 (14)
+* Consent checkbox now shows link if there is.
+- New custom alert
+
+## v1.4.3 (13)
+- Links now open in an in-app WebView when the `inNewTab` property is set (instead of always external browser).
+
+## v1.4.2 (12)
+- Added new delegate method pocessResult.
+
 ## v1.4.1 (11)
-- Bugfixes.
+- Fixed camera orientation issues when switching from back to front camera on iPhone 17.
 
 ## v1.4.0 (10)
 - Added new types of calculators for extended functionality.

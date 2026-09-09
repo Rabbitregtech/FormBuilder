@@ -436,6 +436,34 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4428,6 +4456,48 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4542,6 +4612,30 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK"
       },
       {
         "kind": "Import",
@@ -4914,35 +5008,35 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
       "kind": "StringLiteral",
-      "offset": 613,
+      "offset": 644,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
       "kind": "StringLiteral",
-      "offset": 754,
+      "offset": 785,
       "length": 12,
       "value": "\"Other File\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
       "kind": "StringLiteral",
-      "offset": 793,
+      "offset": 824,
       "length": 8,
       "value": "\"folder\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
       "kind": "StringLiteral",
-      "offset": 1066,
+      "offset": 1097,
       "length": 15,
       "value": "\"Photo Library\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
       "kind": "StringLiteral",
-      "offset": 1108,
+      "offset": 1139,
       "length": 20,
       "value": "\"photo.on.rectangle\""
     },
@@ -5311,6 +5405,174 @@
       "value": "\"VIDEO_URL\""
     },
     {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 2863,
+      "length": 24,
+      "value": "\"SINGLE_IMAGE_KYC_TITLE\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 2928,
+      "length": 30,
+      "value": "\"SINGLE_IMAGE_KYC_DESCRIPTION\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 2999,
+      "length": 29,
+      "value": "\"SINGLE_IMAGE_KYC_FILE_LABEL\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3069,
+      "length": 28,
+      "value": "\"SINGLE_IMAGE_KYC_DROP_HINT\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3138,
+      "length": 25,
+      "value": "\"SINGLE_IMAGE_KYC_CHANGE\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3204,
+      "length": 25,
+      "value": "\"SINGLE_IMAGE_KYC_SUBMIT\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3270,
+      "length": 28,
+      "value": "\"SINGLE_IMAGE_KYC_UPLOADING\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3339,
+      "length": 26,
+      "value": "\"SINGLE_IMAGE_KYC_SUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3406,
+      "length": 28,
+      "value": "\"SINGLE_IMAGE_KYC_RETRY_MSG\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3475,
+      "length": 32,
+      "value": "\"SINGLE_IMAGE_KYC_ATTEMPTS_LEFT\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3548,
+      "length": 23,
+      "value": "\"SINGLE_IMAGE_KYC_FAIL\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3612,
+      "length": 29,
+      "value": "\"SINGLE_IMAGE_KYC_PROCESSING\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3682,
+      "length": 24,
+      "value": "\"SINGLE_IMAGE_KYC_ERROR\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3747,
+      "length": 30,
+      "value": "\"SINGLE_IMAGE_KYC_STEP_1_OF_2\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3818,
+      "length": 30,
+      "value": "\"SINGLE_IMAGE_KYC_STEP_2_OF_2\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3889,
+      "length": 29,
+      "value": "\"SINGLE_IMAGE_KYC_FRONT_SIDE\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 3959,
+      "length": 28,
+      "value": "\"SINGLE_IMAGE_KYC_BACK_SIDE\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 4028,
+      "length": 29,
+      "value": "\"SINGLE_IMAGE_KYC_FACE_TITLE\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 4098,
+      "length": 29,
+      "value": "\"SINGLE_IMAGE_KYC_BACK_TITLE\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 4168,
+      "length": 35,
+      "value": "\"SINGLE_IMAGE_KYC_FACE_DESCRIPTION\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 4244,
+      "length": 35,
+      "value": "\"SINGLE_IMAGE_KYC_BACK_DESCRIPTION\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 4320,
+      "length": 24,
+      "value": "\"SINGLE_IMAGE_KYC_APPLY\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 4385,
+      "length": 24,
+      "value": "\"SINGLE_IMAGE_KYC_RESET\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SpecialType.swift",
+      "kind": "StringLiteral",
+      "offset": 4443,
+      "length": 24,
+      "value": "\"DOC_TYPE_NOT_SUPPORTED\""
+    },
+    {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSA1Button.swift",
       "kind": "BooleanLiteral",
       "offset": 293,
@@ -5474,49 +5736,49 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "FloatLiteral",
-      "offset": 12441,
+      "offset": 12504,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16226,
+      "offset": 16289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "Dictionary",
-      "offset": 16360,
+      "offset": 16423,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25219,
+      "offset": 25282,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "FloatLiteral",
-      "offset": 25265,
+      "offset": 25328,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25304,
+      "offset": 25367,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31092,
+      "offset": 31337,
       "length": 4,
       "value": "true"
     },
@@ -5731,6 +5993,76 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 70,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 112,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 154,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 25,
+      "value": "\"com.fbs.fmp4muxer.queue\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 744,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Muxer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 772,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldType.swift",
       "kind": "StringLiteral",
       "offset": 257,
@@ -5862,6 +6194,13 @@
       "offset": 839,
       "length": 7,
       "value": "\"IMAGE\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldType.swift",
+      "kind": "StringLiteral",
+      "offset": 870,
+      "length": 11,
+      "value": "\"SIGNATURE\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSRadioButtonView.swift",
@@ -6068,8 +6407,22 @@
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 768,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 800,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 3324,
+      "offset": 5788,
       "length": 2,
       "value": "30"
     },
@@ -6363,42 +6716,49 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoCaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 999,
       "length": 16,
       "value": "\".session.queue\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoCaptureManager.swift",
       "kind": "StringLiteral",
-      "offset": 1043,
+      "offset": 1097,
       "length": 20,
       "value": "\"video.output.queue\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoCaptureManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1199,
+      "length": 21,
+      "value": "\".audio.output.queue\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoCaptureManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1540,
+      "offset": 1697,
       "length": 4,
       "value": "1920"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoCaptureManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1554,
+      "offset": 1711,
       "length": 4,
       "value": "1440"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoCaptureManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1584,
+      "offset": 1741,
       "length": 4,
       "value": "1920"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/VideoCaptureManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1598,
+      "offset": 1755,
       "length": 4,
       "value": "1440"
     },
@@ -6690,6 +7050,20 @@
       "value": "4"
     },
     {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Encoder.swift",
+      "kind": "StringLiteral",
+      "offset": 606,
+      "length": 21,
+      "value": "\".fmp4.encoder.queue\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Video Streaming\/FMP4Encoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 764,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSCreditProductDropdownButton.swift",
       "kind": "BooleanLiteral",
       "offset": 334,
@@ -6706,7 +7080,7 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSConsentToggle.swift",
       "kind": "BooleanLiteral",
-      "offset": 344,
+      "offset": 364,
       "length": 4,
       "value": "true"
     },
@@ -7199,6 +7573,251 @@
       "offset": 288,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "FloatLiteral",
+      "offset": 12221,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12513,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12563,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12633,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12637,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12649,
+      "length": 3,
+      "value": "243"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12653,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12664,
+      "length": 3,
+      "value": "205"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12668,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "FloatLiteral",
+      "offset": 12680,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12743,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12747,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12759,
+      "length": 3,
+      "value": "238"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12763,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12774,
+      "length": 3,
+      "value": "186"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12778,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "FloatLiteral",
+      "offset": 12790,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12848,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12896,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13019,
+      "length": 3,
+      "value": "133"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13023,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13035,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13039,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13050,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13052,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "FloatLiteral",
+      "offset": 13064,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "FloatLiteral",
+      "offset": 13365,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "Array",
+      "offset": 13422,
+      "length": 6,
+      "value": "[6, 4]"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13509,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "StringLiteral",
+      "offset": 13663,
+      "length": 23,
+      "value": "\"person.text.rectangle\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "FloatLiteral",
+      "offset": 14062,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14765,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "FloatLiteral",
+      "offset": 14954,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
+      "kind": "StringLiteral",
+      "offset": 25775,
+      "length": 11,
+      "value": "\"image.jpg\""
     },
     {
       "filePath": "\/Volumes\/T9\/Xcode\/DerivedData\/FormBuilderSDK-fvqurtdlpsfrxobqgzvgltlfzgnl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FormBuilderSDK\/IntermediateBuildFilesPath\/FormBuilderSDK.build\/Release-iphonesimulator\/FormBuilderSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",

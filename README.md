@@ -19,7 +19,7 @@ Once you have your Swift project set up, adding FormBuilderSDK as a dependency i
 
 ```swift
 dependencies: [
-	.package(url: "https://github.com/infinno/FormBuilder.git", .upToNextMajor(from: "1.3.0"))
+	.package(url: "https://github.com/Rabbitregtech/FormBuilder.git", .upToNextMajor(from: "1.4.0"))
 ]
 ```
 

@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import CoreImage
+import CoreMedia
 import DeveloperToolsSupport
 import Dispatch
 @_exported import FormBuilderSDK
@@ -20,6 +21,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os
 extension CoreMedia.CMVideoDimensions : @retroactive Swift.Equatable {
   public static func == (lhs: CoreMedia.CMVideoDimensions, rhs: CoreMedia.CMVideoDimensions) -> Swift.Bool
 }
