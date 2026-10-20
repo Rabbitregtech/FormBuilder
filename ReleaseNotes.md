@@ -1,5 +1,12 @@
 # Release notes
 
+## v1.5.0 (19)
+- Added IBAN Verification step support (`IrisPayUI` integration).
+- Added Single Image KYC (`SINGLE_IMAGE_KYC`) step support.
+- Added audio recording support during KYC video streaming.
+- Improved video streaming resolution selection, encoding bitrate, and WebSocket reconnection when switching cameras.
+- Signature pad UI/UX improvements and file upload fixes.
+
 ## v1.4.8 (18)
 - Refactored video streaming pipeline to use Fragmented MP4 (fMP4) via ISOBMFF.
 - Consents bug fix

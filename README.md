@@ -7,7 +7,7 @@
 ## Requirements
 | Platform | Minimum Swift Version | Installation |
 | --- | --- | --- |
-| iOS 15.0+ | 5.10 | [Swift Package Manager](#swift-package-manager), [Manual](#manually) |
+| iOS 15.0+ | 5.10 | [Swift Package Manager](#swift-package-manager) |
 
 ## Installation
 
@@ -19,17 +19,9 @@ Once you have your Swift project set up, adding FormBuilderSDK as a dependency i
 
 ```swift
 dependencies: [
-	.package(url: "https://github.com/Rabbitregtech/FormBuilder.git", .upToNextMajor(from: "1.4.0"))
+	.package(url: "https://github.com/Rabbitregtech/FormBuilder.git", .upToNextMajor(from: "1.5.0"))
 ]
 ```
-
-### Manually
-
-1. Copy `FormBuilderSDK.xcframework` from the Framework folder to your project’s folder. 
-2. In the Project Navigator click on the project file and then click on the target you want to use `FormBuilderSDK` in.
-3. Drag `FormBuilderSDK.xcframework` from Finder to the Frameworks, Libraries, and Embedded Content section.
-4. In the Embed column choose Embed & Sign from the drop down, if it isn’t chosen already.
-5. Build & Run the app.
 
 ## Documentation
 You can Option+Click on the methods and properties to view documentation.
@@ -100,3 +92,39 @@ let formBuilder = FormBuilder(instanceURL: KYCBackendURL, appearance: appearance
 ```
 
 If you don’t pass an appearance object, the SDK will use default values.
+
+---
+
+## Universal Links (for IBAN Verification)
+
+If your verification flow includes the **IBAN Verification / Open Banking step**, users will be redirected to their banking app or Safari to authorize their account. To seamlessly return the user back into your app once the bank authorization completes, configure **Universal Links**.
+
+> **Note:** Contact the FormBuilder team to receive your assigned `{MERCHANT_SLUG}`.
+
+### 1. Enable Associated Domains Capability
+1. Open your project in Xcode.
+2. Select your main app target and go to the **Signing & Capabilities** tab.
+3. Click **+ Capability** and select **Associated Domains**.
+4. In the **Domains** list, add both environments:
+   - `applinks:dev3.kyc.rbbt.dev` *(Development)*
+   - `applinks:id.rbbt.dev` *(Production)*
+
+### 2. Apple App Site Association (AASA) Registration
+Apple requires domain verification via the `apple-app-site-association` file hosted on our servers.
+Please provide the FormBuilder support team with:
+- Your Apple **Team ID** (e.g. `ABC123XYZ0`)
+- Your **Bundle Identifier** (e.g. `com.yourcompany.yourapp`)
+
+This registers your app ID (`<TeamID>.<BundleID>`) in `https://id.rbbt.dev/.well-known/apple-app-site-association` for the path `/iris-redirect/{MERCHANT_SLUG}/*`.
+
+### 3. Handling Incoming Links (Optional)
+When returning via Universal Link, the SDK automatically polls the verification status and advances the flow as soon as the app becomes active. If your app implements custom scene handling in `SceneDelegate`, ensure Universal Links are permitted to pass through:
+
+```swift
+func scene(_ scene: UIScene, continue userActivity: NSUserActivity) {
+    guard userActivity.activityType == NSUserActivityTypeBrowsingWeb,
+          let url = userActivity.webpageURL else { return }
+    // Universal link returned user to app — SDK polling automatically resumes
+}
+```
+
