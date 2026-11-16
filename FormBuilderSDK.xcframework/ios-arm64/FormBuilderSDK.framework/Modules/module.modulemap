@@ -7,5 +7,4 @@ framework module FormBuilderSDK {
 
 module FormBuilderSDK.Swift {
   header "FormBuilderSDK-Swift.h"
-  requires objc
 }

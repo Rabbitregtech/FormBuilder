@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FormBuilderSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.4.2 effective-5.10 (swiftlang-6.4.2.1.9 clang-2100.4.1.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FormBuilderSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4.2
 import AVFoundation
 import CoreImage
 import CoreMedia
@@ -22,93 +22,101 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-extension CoreMedia.CMVideoDimensions : @retroactive Swift.Equatable {
-  public static func == (lhs: CoreMedia.CMVideoDimensions, rhs: CoreMedia.CMVideoDimensions) -> Swift.Bool
+extension CoreMedia::CMVideoDimensions : @retroactive Swift::Equatable {
+  public static func == (lhs: CoreMedia::CMVideoDimensions, rhs: CoreMedia::CMVideoDimensions) -> Swift::Bool
 }
-@objc(FBSBackendError) final public class FBSBackendError : ObjectiveC.NSObject, Swift.Decodable, Swift.Error {
-  final public let localizedDescription: Swift.String
+@objc(FBSBackendError) final public class FBSBackendError : ObjectiveC::NSObject, Swift::Decodable, Swift::Error {
+  final public let localizedDescription: Swift::String
   @objc deinit
-  public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: any Swift::Decoder) throws
 }
-@_inheritsConvenienceInitializers @objc(FBSAppearance) final public class FBSAppearance : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc(FBSAppearance) final public class FBSAppearance : ObjectiveC::NSObject {
   @objc override dynamic public init()
-  @objc final public var tintColor: UIKit.UIColor
-  @objc final public var backgroundColor: UIKit.UIColor
-  @objc final public var textColor: UIKit.UIColor
-  @objc final public var font: UIKit.UIFont
-  @objc final public var navigationTitleFont: UIKit.UIFont
-  @objc final public var showCloseButton: Swift.Bool
-  @objc final public var inputBorderStyle: UIKit.UITextField.BorderStyle
-  @objc final public var inputCornerRadius: CoreFoundation.CGFloat {
+  @objc final public var tintColor: UIKit::UIColor
+  @objc final public var backgroundColor: UIKit::UIColor
+  @objc final public var textColor: UIKit::UIColor
+  @objc final public var font: UIKit::UIFont
+  @objc final public var navigationTitleFont: UIKit::UIFont
+  @objc final public var showCloseButton: Swift::Bool
+  @objc final public var inputBorderStyle: UIKit::UITextField.UIKit::BorderStyle
+  @objc final public var inputCornerRadius: CoreFoundation::CGFloat {
     @objc get
     @objc set
   }
-  @objc final public var inputBorderWidth: CoreFoundation.CGFloat
-  @objc final public var inputBorderColor: UIKit.UIColor
-  @objc final public var inputBackgroundColor: UIKit.UIColor
-  @objc final public var inputFont: UIKit.UIFont {
+  @objc final public var inputBorderWidth: CoreFoundation::CGFloat
+  @objc final public var inputBorderColor: UIKit::UIColor
+  @objc final public var inputBackgroundColor: UIKit::UIColor
+  @objc final public var inputFont: UIKit::UIFont {
     @objc get
     @objc set
   }
-  @objc final public var inputTextColor: UIKit.UIColor {
+  @objc final public var inputTextColor: UIKit::UIColor {
     @objc get
     @objc set
   }
-  @objc final public var buttonFont: UIKit.UIFont {
+  @objc final public var inputHeight: CoreFoundation::CGFloat {
     @objc get
     @objc set
   }
-  @objc final public var buttonTextColor: UIKit.UIColor {
+  @objc final public var buttonFont: UIKit::UIFont {
     @objc get
     @objc set
   }
-  @objc final public var buttonMinimumHeight: CoreFoundation.CGFloat {
+  @objc final public var buttonTextColor: UIKit::UIColor {
     @objc get
     @objc set
   }
-  @objc final public var leadingSpace: CoreFoundation.CGFloat {
+  @objc final public var buttonMinimumHeight: CoreFoundation::CGFloat {
     @objc get
     @objc set
   }
-  final public var buttonSize: UIKit.UIButton.Configuration.Size {
+  @objc final public var leadingSpace: CoreFoundation::CGFloat {
+    @objc get
+    @objc set
+  }
+  final public var buttonSize: UIKit::UIButton.UIKit::Configuration.UIKit::Size {
     get
     set
   }
-  final public var buttonCornerStyle: UIKit.UIButton.Configuration.CornerStyle {
+  final public var buttonCornerStyle: UIKit::UIButton.UIKit::Configuration.UIKit::CornerStyle {
     get
     set
   }
-  @objc final public var buttonCornerRadius: CoreFoundation.CGFloat {
+  @objc final public var buttonCornerRadius: CoreFoundation::CGFloat {
     @objc get
     @objc set
   }
-  @objc final public var consentLinkButtonFont: UIKit.UIFont
-  @objc final public var embedInstructionsLabelInBubble: Swift.Bool {
+  @objc final public var consentLinkButtonFont: UIKit::UIFont
+  @objc final public var embedInstructionsLabelInBubble: Swift::Bool {
     @objc get
     @objc set
   }
-  @objc final public var bubbleBackgroundColor: UIKit.UIColor {
+  @objc final public var bubbleBackgroundColor: UIKit::UIColor {
     @objc get
     @objc set
   }
-  @objc final public var bubbleCornerRadius: CoreFoundation.CGFloat {
+  @objc final public var bubbleCornerRadius: CoreFoundation::CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc final public var bubbleTextColor: UIKit::UIColor {
     @objc get
     @objc set
   }
   @available(*, deprecated, renamed: "leadingSpace")
-  @objc final public var buttonLeadingSpace: CoreFoundation.CGFloat {
+  @objc final public var buttonLeadingSpace: CoreFoundation::CGFloat {
     @objc get
     @objc set
   }
   @objc deinit
 }
 @objc(FBSDelegate) public protocol FBSDelegate {
-  @objc func closedForm(onStepWithId id: Swift.String)
-  @objc func processResult(success: Swift.Bool)
-  @objc func postToHostUI(status: Swift.String)
+  @objc func closedForm(onStepWithId id: Swift::String)
+  @objc func processResult(success: Swift::Bool)
+  @objc func postToHostUI(status: Swift::String)
 }
-extension Swift.Numeric where Self.Magnitude : Swift.FloatingPoint {
-  @inlinable @inline(__always) internal func isApproximatelyEqual(to other: Self, relativeTolerance: Self.Magnitude = Magnitude.ulpOfOne.squareRoot(), norm: (Self) -> Self.Magnitude = \.magnitude) -> Swift.Bool {
+extension Swift::Numeric where Self.Magnitude : Swift::FloatingPoint {
+  @inlinable @inline(__always) internal func isApproximatelyEqual(to other: Self, relativeTolerance: Self.Magnitude = Magnitude.ulpOfOne.squareRoot(), norm: (Self) -> Self.Magnitude = \.magnitude) -> Swift::Bool {
 		return isApproximatelyEqual(
 			to: other,
 			absoluteTolerance: relativeTolerance * Magnitude.leastNormalMagnitude,
@@ -116,7 +124,7 @@ extension Swift.Numeric where Self.Magnitude : Swift.FloatingPoint {
 			norm: norm
 		)
 	}
-  @inlinable @inline(__always) internal func isApproximatelyEqual(to other: Self, absoluteTolerance: Self.Magnitude, relativeTolerance: Self.Magnitude = 0) -> Swift.Bool {
+  @inlinable @inline(__always) internal func isApproximatelyEqual(to other: Self, absoluteTolerance: Self.Magnitude, relativeTolerance: Self.Magnitude = 0) -> Swift::Bool {
 		self.isApproximatelyEqual(
 			to: other,
 			absoluteTolerance: absoluteTolerance,
@@ -125,8 +133,8 @@ extension Swift.Numeric where Self.Magnitude : Swift.FloatingPoint {
 		)
 	}
 }
-extension Swift.AdditiveArithmetic {
-  @inlinable internal func isApproximatelyEqual<Magnitude>(to other: Self, absoluteTolerance: Magnitude, relativeTolerance: Magnitude = 0, norm: (Self) -> Magnitude) -> Swift.Bool where Magnitude : Swift.FloatingPoint {
+extension Swift::AdditiveArithmetic {
+  @inlinable internal func isApproximatelyEqual<Magnitude>(to other: Self, absoluteTolerance: Magnitude, relativeTolerance: Magnitude = 0, norm: (Self) -> Magnitude) -> Swift::Bool where Magnitude : Swift::FloatingPoint {
 		assert(
 			absoluteTolerance >= 0 && absoluteTolerance.isFinite,
 			"absoluteTolerance should be non-negative and finite, " +
@@ -144,24 +152,14 @@ extension Swift.AdditiveArithmetic {
 		return delta.isFinite && delta <= bound
 	}
 }
-@objc(FormBuilder) final public class FormBuilder : ObjectiveC.NSObject {
-  @objc public static var appearance: FormBuilderSDK.FBSAppearance
-  @objc public init(instanceURL: Foundation.URL, appearance: FormBuilderSDK.FBSAppearance = FBSAppearance())
-  #if compiler(>=5.3) && $NonescapableTypes
+@objc(FormBuilder) final public class FormBuilder : ObjectiveC::NSObject {
+  @objc public static var appearance: FormBuilderSDK::FBSAppearance
+  @objc public init(instanceURL: Foundation::URL, appearance: FormBuilderSDK::FBSAppearance = FBSAppearance())
   @available(*, unavailable, renamed: "init(instanceURL:appearance:)", message: "The instance’s URL is mandatory.")
-  @objc public init(formBuilderInstanceURL: Foundation.URL? = nil, appearance: FormBuilderSDK.FBSAppearance = FBSAppearance())
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func startProcess(withId id: Swift.String, callingServiceToken: Swift.String?, delegate: any FormBuilderSDK.FBSDelegate, didStartProcess: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc final public func objc_startProcess(withId id: Swift.String, callingServiceToken: Swift.String?, delegate: any FormBuilderSDK.FBSDelegate, didStartProcess: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func openStep(withId id: Swift.String, delegate: any FormBuilderSDK.FBSDelegate, didOpenStep: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc final public func objc_openStep(withId id: Swift.String, delegate: any FormBuilderSDK.FBSDelegate, didOpenStep: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void)
-  #endif
+  @objc public init(formBuilderInstanceURL: Foundation::URL? = nil, appearance: FormBuilderSDK::FBSAppearance = FBSAppearance())
+  final public func startProcess(withId id: Swift::String, callingServiceToken: Swift::String?, delegate: any FormBuilderSDK::FBSDelegate, didStartProcess: @escaping (Swift::Result<Swift::Bool, any Swift::Error>) -> Swift::Void)
+  @objc final public func objc_startProcess(withId id: Swift::String, callingServiceToken: Swift::String?, delegate: any FormBuilderSDK::FBSDelegate, didStartProcess: @escaping (Swift::Bool, (any Swift::Error)?) -> Swift::Void)
+  final public func openStep(withId id: Swift::String, delegate: any FormBuilderSDK::FBSDelegate, didOpenStep: @escaping (Swift::Result<Swift::Bool, any Swift::Error>) -> Swift::Void)
+  @objc final public func objc_openStep(withId id: Swift::String, delegate: any FormBuilderSDK::FBSDelegate, didOpenStep: @escaping (Swift::Bool, (any Swift::Error)?) -> Swift::Void)
   @objc deinit
 }

@@ -1,5 +1,13 @@
 # Release notes
 
+## v1.5.1 (20)
+- Added iPhone Duo (foldable) support for KYC video: the front camera of the open half is used (outer Center Stage camera when folded, inner camera when unfolded) and switches automatically when the device is folded or unfolded.
+- KYC video rotation is now computed by the system (`AVCaptureDevice.RotationCoordinator` on iOS 17+), keeping the preview and the streamed video in sync for every camera.
+- The KYC camera view adapts when the screen is wider than tall (e.g. unfolded iPhone Duo, landscape).
+- Camera switches now run off the main thread, fixing an app termination (watchdog) when switching cameras during a screen change.
+- The SDK now sends device and camera information (resolution, camera, rotation) to the backend as a `debug` message at the start of each video stream, as the Android SDK does.
+- Added release-build camera logs (`[FBSCamera]`) for troubleshooting.
+
 ## v1.5.0 (19)
 - Added IBAN Verification step support (`IrisPayUI` integration).
 - Added Single Image KYC (`SINGLE_IMAGE_KYC`) step support.
@@ -18,17 +26,17 @@
 - Fix url builder
 
 ## v1.4.5 (15)
-- Added new delegate method postToHostUI.
+- Added new delegate method `postToHostUI(status:)`.
 
 ## v1.4.4 (14)
-* Consent checkbox now shows link if there is.
+- Consent checkbox now shows link if there is.
 - New custom alert
 
 ## v1.4.3 (13)
 - Links now open in an in-app WebView when the `inNewTab` property is set (instead of always external browser).
 
 ## v1.4.2 (12)
-- Added new delegate method pocessResult.
+- Added new delegate method `processResult(success:)`.
 
 ## v1.4.1 (11)
 - Fixed camera orientation issues when switching from back to front camera on iPhone 17.

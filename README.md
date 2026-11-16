@@ -19,7 +19,7 @@ Once you have your Swift project set up, adding FormBuilderSDK as a dependency i
 
 ```swift
 dependencies: [
-	.package(url: "https://github.com/Rabbitregtech/FormBuilder.git", .upToNextMajor(from: "1.5.0"))
+	.package(url: "https://github.com/Rabbitregtech/FormBuilder.git", .upToNextMajor(from: "1.5.1"))
 ]
 ```
 
@@ -45,7 +45,7 @@ formBuilder.startProcess(withId: {A_PROCESS_ID}, callingServiceToken: {TOKEN}, d
 
 This creates an instance of `FormBuilder` pointing to your backend and then opens a new interface based on the type of the process corresponding to the provided ID. The `callingServiceToken` argument is a unique client identifier that will be stored in the submission.
 
-In the `startProcess(withId:callingServiceToken:delegate:didStartProcess:)` method you should also pass an object conforming to the `FBSDelegate` protocol. The `FBSDelegate` protocol defines three methods. The first one is `closedForm(onStepWithID:)` that is called when the user closes the FormBuilder interface and will give you the ID of the step where the user closed the framework UI. The second one is `processResult(success:)` that is called when KYC status for fail or success is received. The third one is `postToHostUI(status:)` that is called when a field with specific type is received.
+In the `startProcess(withId:callingServiceToken:delegate:didStartProcess:)` method you should also pass an object conforming to the `FBSDelegate` protocol. The `FBSDelegate` protocol defines three methods. The first one is `closedForm(onStepWithId:)` that is called when the user closes the FormBuilder interface and will give you the ID of the step where the user closed the framework UI. The second one is `processResult(success:)` that is called when KYC status for fail or success is received. The third one is `postToHostUI(status:)` that is called when a field with specific type is received.
 The `didStartProcess` closure tells you whether opening the process was successful or there was some error.
 
 ---
@@ -66,7 +66,7 @@ formBuilder.openStep(withId: {A_STEP_ID}, delegate: delegate, didOpenStep: { res
 
 This creates an instance of `FormBuilder` pointing to your backend and then opens a new interface of a previously created process at the step which the user has reached before (e.g. if they have interrupted it for some reason). It can also just be the first step for a process that the backend has preconfigured in some way.
 
-In the `openStep(withId:delegate:didOpenStep:)` method you should also pass an object conforming to the `FBSDelegate` protocol. The `FBSDelegate` protocol defines three methods. The first one is `closedForm(onStepWithID:)` that is called when the user closes the FormBuilder interface and will give you the ID of the step where the user closed the framework UI. The second one is `processResult(success:)` that is called when KYC status for fail or success is received. The third one is `postToHostUI(status:)` that is called when a field with specific type is received.
+In the `openStep(withId:delegate:didOpenStep:)` method you should also pass an object conforming to the `FBSDelegate` protocol. The `FBSDelegate` protocol defines three methods. The first one is `closedForm(onStepWithId:)` that is called when the user closes the FormBuilder interface and will give you the ID of the step where the user closed the framework UI. The second one is `processResult(success:)` that is called when KYC status for fail or success is received. The third one is `postToHostUI(status:)` that is called when a field with specific type is received.
 The `didOpenStep` closure tells you whether opening the process was successful or there was some error.
 
 ---
