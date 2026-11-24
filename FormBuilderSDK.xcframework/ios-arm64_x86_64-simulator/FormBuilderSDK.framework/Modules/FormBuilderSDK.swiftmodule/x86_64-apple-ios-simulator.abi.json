@@ -1165,6 +1165,106 @@
           },
           {
             "kind": "Var",
+            "name": "showBackButtonTitle",
+            "printedName": "showBackButtonTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FormBuilderSDK@objc(cs)FBSAppearance(py)showBackButtonTitle",
+            "mangledName": "$s14FormBuilderSDK13FBSAppearanceC19showBackButtonTitleSbvp",
+            "moduleName": "FormBuilderSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FormBuilderSDK@objc(cs)FBSAppearance(im)showBackButtonTitle",
+                "mangledName": "$s14FormBuilderSDK13FBSAppearanceC19showBackButtonTitleSbvg",
+                "moduleName": "FormBuilderSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FormBuilderSDK@objc(cs)FBSAppearance(im)setShowBackButtonTitle:",
+                "mangledName": "$s14FormBuilderSDK13FBSAppearanceC19showBackButtonTitleSbvs",
+                "moduleName": "FormBuilderSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14FormBuilderSDK13FBSAppearanceC19showBackButtonTitleSbvM",
+                "mangledName": "$s14FormBuilderSDK13FBSAppearanceC19showBackButtonTitleSbvM",
+                "moduleName": "FormBuilderSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "inputBorderStyle",
             "printedName": "inputBorderStyle",
             "children": [
@@ -4600,6 +4700,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FormBuilderSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5247,42 +5357,28 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
       "kind": "Array",
-      "offset": 509,
+      "offset": 536,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
       "kind": "StringLiteral",
-      "offset": 644,
+      "offset": 876,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
       "kind": "StringLiteral",
-      "offset": 785,
-      "length": 12,
-      "value": "\"Other File\""
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
-      "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 1071,
       "length": 8,
       "value": "\"folder\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
       "kind": "StringLiteral",
-      "offset": 1097,
-      "length": 15,
-      "value": "\"Photo Library\""
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSUploadFileView.swift",
-      "kind": "StringLiteral",
-      "offset": 1139,
+      "offset": 1401,
       "length": 20,
       "value": "\"photo.on.rectangle\""
     },
@@ -5884,35 +5980,42 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSSectionView.swift",
       "kind": "Array",
-      "offset": 345,
+      "offset": 445,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSSectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 376,
+      "offset": 476,
       "length": 4,
       "value": "true"
     },
     {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSSectionView.swift",
+      "kind": "Dictionary",
+      "offset": 639,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSLinkButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 297,
+      "offset": 320,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSLinkButton.swift",
       "kind": "StringLiteral",
-      "offset": 819,
+      "offset": 1129,
       "length": 6,
       "value": "\"http\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSLinkButton.swift",
       "kind": "StringLiteral",
-      "offset": 845,
+      "offset": 1155,
       "length": 10,
       "value": "\"https:\/\/\""
     },
@@ -6017,42 +6120,42 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19843,
+      "offset": 19714,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "Dictionary",
-      "offset": 19977,
+      "offset": 19848,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29428,
+      "offset": 29210,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "FloatLiteral",
-      "offset": 29474,
+      "offset": 29256,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "IntegerLiteral",
-      "offset": 29513,
+      "offset": 29295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSNativeKYCController.swift",
       "kind": "BooleanLiteral",
-      "offset": 36352,
+      "offset": 36134,
       "length": 4,
       "value": "true"
     },
@@ -6162,6 +6265,20 @@
       "value": "\"hide\""
     },
     {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/GroupControlConditionJSON.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 10,
+      "value": "\"operator\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/GroupControlConditionJSON.swift",
+      "kind": "StringLiteral",
+      "offset": 3265,
+      "length": 10,
+      "value": "\"operator\""
+    },
+    {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/SubmissionContainer.swift",
       "kind": "StringLiteral",
       "offset": 324,
@@ -6262,7 +6379,7 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSInputArea.swift",
       "kind": "BooleanLiteral",
-      "offset": 313,
+      "offset": 336,
       "length": 4,
       "value": "true"
     },
@@ -6477,6 +6594,27 @@
       "value": "\"SIGNATURE\""
     },
     {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldType.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 7,
+      "value": "\"POPUP\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldType.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 6,
+      "value": "\"BACK\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldType.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSRadioButtonView.swift",
       "kind": "BooleanLiteral",
       "offset": 343,
@@ -6492,64 +6630,71 @@
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2728,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2984,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
-      "kind": "FloatLiteral",
-      "offset": 2994,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3035,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
-      "kind": "FloatLiteral",
-      "offset": 3045,
-      "length": 3,
-      "value": "0.2"
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3802,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3915,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
       "kind": "BooleanLiteral",
-      "offset": 5233,
+      "offset": 1766,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
       "kind": "IntegerLiteral",
-      "offset": 5375,
+      "offset": 2978,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3234,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
+      "kind": "FloatLiteral",
+      "offset": 3244,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3285,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
+      "kind": "FloatLiteral",
+      "offset": 3295,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4052,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4165,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5483,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/FBSAppearance.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5625,
       "length": 1,
       "value": "8"
     },
@@ -6612,7 +6757,7 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Helpers.swift",
       "kind": "BooleanLiteral",
-      "offset": 3464,
+      "offset": 3735,
       "length": 5,
       "value": "false"
     },
@@ -6983,7 +7128,7 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSFlowButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 296,
+      "offset": 319,
       "length": 4,
       "value": "true"
     },
@@ -7361,7 +7506,7 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSInputField.swift",
       "kind": "BooleanLiteral",
-      "offset": 310,
+      "offset": 333,
       "length": 4,
       "value": "true"
     },
@@ -7424,56 +7569,42 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 2991,
-      "length": 14,
-      "value": "\"Отмени\""
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 3504,
-      "length": 14,
-      "value": "\"Грешка\""
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 6306,
+      "offset": 6347,
       "length": 34,
       "value": "\".didChangeVideoCaptureDimensions\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 6459,
+      "offset": 6500,
       "length": 13,
       "value": "\"FormBuilder\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 6555,
+      "offset": 6596,
       "length": 9,
       "value": "\"Network\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 6647,
+      "offset": 6688,
       "length": 12,
       "value": "\"Signalling\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 6742,
+      "offset": 6783,
       "length": 14,
       "value": "\"VideoCapture\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 6839,
+      "offset": 6880,
       "length": 11,
       "value": "\"WebSocket\""
     },
@@ -7511,6 +7642,13 @@
       "offset": 401,
       "length": 1,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSHintButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 751,
+      "length": 2,
+      "value": "44"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/Credit Calculator\/CreditProductType.swift",
@@ -7683,56 +7821,56 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldJSON.swift",
       "kind": "StringLiteral",
-      "offset": 1515,
+      "offset": 2361,
       "length": 10,
       "value": "\"required\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldJSON.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 2390,
       "length": 8,
       "value": "\"hidden\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldJSON.swift",
       "kind": "StringLiteral",
-      "offset": 1584,
+      "offset": 2430,
       "length": 12,
       "value": "\"allowedExt\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldJSON.swift",
       "kind": "StringLiteral",
-      "offset": 1622,
+      "offset": 2468,
       "length": 9,
       "value": "\"maxSize\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldJSON.swift",
       "kind": "StringLiteral",
-      "offset": 1655,
+      "offset": 2501,
       "length": 11,
       "value": "\"sizeError\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldJSON.swift",
       "kind": "StringLiteral",
-      "offset": 1695,
+      "offset": 2541,
       "length": 10,
       "value": "\"extError\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldJSON.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 2574,
       "length": 12,
       "value": "\"allignment\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Models\/Direction\/FieldJSON.swift",
       "kind": "StringLiteral",
-      "offset": 1774,
+      "offset": 2620,
       "length": 6,
       "value": "\"size\""
     },
@@ -7745,421 +7883,442 @@
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
+      "kind": "Array",
+      "offset": 1833,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1692,
+      "offset": 1916,
       "length": 3,
       "value": "340"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1729,
+      "offset": 1953,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1776,
+      "offset": 2000,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1817,
+      "offset": 2041,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1866,
+      "offset": 2090,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1876,
+      "offset": 2100,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1888,
+      "offset": 2112,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1899,
+      "offset": 2123,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1942,
+      "offset": 2166,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1982,
+      "offset": 2206,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2023,
+      "offset": 2247,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2069,
+      "offset": 2293,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSAlertViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2112,
+      "offset": 2336,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 302,
+      "offset": 643,
+      "length": 6,
+      "value": "\"Base\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 4,
+      "value": "\"bg\""
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
+      "kind": "BooleanLiteral",
+      "offset": 827,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 978,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 408,
+      "offset": 1084,
       "length": 20,
       "value": "\"CFBundleIdentifier\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 519,
+      "offset": 1195,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 636,
+      "offset": 1312,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 719,
+      "offset": 1395,
       "length": 27,
       "value": "\"eu.infinno.FormBuilderSDK\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 822,
+      "offset": 1498,
       "length": 20,
       "value": "\"CFBundleIdentifier\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 927,
+      "offset": 1603,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1038,
+      "offset": 1714,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1286,
+      "offset": 1962,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1980,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1321,
+      "offset": 1997,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1367,
+      "offset": 2043,
       "length": 29,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1381,
+      "offset": 2057,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1394,
+      "offset": 2070,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1455,
-      "length": 90,
-      "value": "\"Някой не е въвел правилно съобщение за грешка 👀\""
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1587,
+      "offset": 9681,
       "length": 10,
       "value": "\"​\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 2359,
+      "offset": 10453,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2436,
+      "offset": 10530,
       "length": 195,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2451,
+      "offset": 10545,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2465,
+      "offset": 10559,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2481,
+      "offset": 10575,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "BooleanLiteral",
-      "offset": 2524,
+      "offset": 10618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2533,
+      "offset": 10627,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2551,
+      "offset": 10645,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2571,
+      "offset": 10665,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2587,
+      "offset": 10681,
       "length": 1,
       "value": "\") FormBuilderSDK\/\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2617,
+      "offset": 10711,
       "length": 1,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 10723,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2805,
+      "offset": 10899,
       "length": 11,
       "value": "\"userAgent\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2846,
+      "offset": 10940,
       "length": 144,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "BooleanLiteral",
-      "offset": 2890,
+      "offset": 10984,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2899,
+      "offset": 10993,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2917,
+      "offset": 11011,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2933,
+      "offset": 11027,
       "length": 14,
       "value": "\" FormBuilderSDK\/\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2962,
+      "offset": 11056,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2974,
+      "offset": 11068,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2989,
+      "offset": 11083,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3012,
+      "offset": 11106,
       "length": 186,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3027,
+      "offset": 11121,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3045,
+      "offset": 11139,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3065,
+      "offset": 11159,
       "length": 1,
       "value": "\"; version:\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3092,
+      "offset": 11186,
       "length": 1,
       "value": "\"; build:\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3115,
+      "offset": 11209,
       "length": 1,
       "value": "\"; \""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3130,
+      "offset": 11224,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3147,
+      "offset": 11241,
       "length": 1,
       "value": "\") FormBuilderSDK\/\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3177,
+      "offset": 11271,
       "length": 1,
       "value": "\" (build:\""
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3196,
+      "offset": 11290,
       "length": 1,
       "value": "\")\""
     },
@@ -8397,7 +8556,7 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Controllers\/FBSSingleImageKYCController.swift",
       "kind": "StringLiteral",
-      "offset": 26379,
+      "offset": 26419,
       "length": 11,
       "value": "\"image.jpg\""
     },
@@ -8425,23 +8584,23 @@
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSSignatureView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1999,
+      "offset": 419,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSSignatureView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3552,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSSignatureView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2325,
+      "offset": 3878,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/svetoslavkanchev\/Developer\/ios\/form-builder-sdk-ios\/FormBuilderSDK\/Classes\/Controls\/FBSSignatureView.swift",
-      "kind": "StringLiteral",
-      "offset": 2999,
-      "length": 7,
-      "value": "\"Clear\""
     },
     {
       "filePath": "\/Volumes\/T9\/Xcode\/DerivedData\/FormBuilderSDK-fvqurtdlpsfrxobqgzvgltlfzgnl\/Build\/Intermediates.noindex\/ArchiveIntermediates\/FormBuilderSDK\/IntermediateBuildFilesPath\/FormBuilderSDK.build\/Release-iphonesimulator\/FormBuilderSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",

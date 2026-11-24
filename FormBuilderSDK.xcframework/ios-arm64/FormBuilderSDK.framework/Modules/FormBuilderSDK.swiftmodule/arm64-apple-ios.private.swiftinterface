@@ -38,6 +38,7 @@ extension CoreMedia::CMVideoDimensions : @retroactive Swift::Equatable {
   @objc final public var font: UIKit::UIFont
   @objc final public var navigationTitleFont: UIKit::UIFont
   @objc final public var showCloseButton: Swift::Bool
+  @objc final public var showBackButtonTitle: Swift::Bool
   @objc final public var inputBorderStyle: UIKit::UITextField.UIKit::BorderStyle
   @objc final public var inputCornerRadius: CoreFoundation::CGFloat {
     @objc get

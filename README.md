@@ -19,7 +19,7 @@ Once you have your Swift project set up, adding FormBuilderSDK as a dependency i
 
 ```swift
 dependencies: [
-	.package(url: "https://github.com/Rabbitregtech/FormBuilder.git", .upToNextMajor(from: "1.5.1"))
+	.package(url: "https://github.com/Rabbitregtech/FormBuilder.git", .upToNextMajor(from: "1.5.2"))
 ]
 ```
 
@@ -92,6 +92,10 @@ let formBuilder = FormBuilder(instanceURL: KYCBackendURL, appearance: appearance
 ```
 
 If you don’t pass an appearance object, the SDK will use default values.
+
+### Navigation
+
+When a form step contains a `BACK` field, the SDK shows a back button in the navigation bar. It asks the user to confirm and then opens the `BACK` field's step, with the answers given there before already filled in. Set `appearance.showBackButtonTitle = true` to show the `BACK` field's label next to the back arrow (default `false`).
 
 ---
 

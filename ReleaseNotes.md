@@ -1,5 +1,12 @@
 # Release notes
 
+## v1.5.2 (21)
+- Added field hints: a field with a hint shows an info button that opens the hint in a popup. `POPUP` fields and popup flows open their popup.
+- Added back navigation: when a step has a `BACK` field, a back button is shown in the navigation bar. After a confirmation it opens the earlier step with the answers given there filled in (text, dates, checkboxes, dropdowns, radio buttons, signatures and files).
+- Added `FBSAppearance.showBackButtonTitle` to show the `BACK` field's label next to the back arrow (default `false`).
+- Fields without an earlier answer start with their `defaultValue`.
+- Nested sections are now loaded. Section visibility supports the new `conditionGroup` format and the old `GROUP` conditions.
+
 ## v1.5.1 (20)
 - Added iPhone Duo (foldable) support for KYC video: the front camera of the open half is used (outer Center Stage camera when folded, inner camera when unfolded) and switches automatically when the device is folded or unfolded.
 - KYC video rotation is now computed by the system (`AVCaptureDevice.RotationCoordinator` on iOS 17+), keeping the preview and the streamed video in sync for every camera.

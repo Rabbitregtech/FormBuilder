@@ -390,6 +390,9 @@ SWIFT_CLASS_NAMED("FBSAppearance")
 /// Controls whether the close button is shown.
 /// If you set it to <code>false</code> then the process will not be able to be interrupted by the user.
 @property (nonatomic) BOOL showCloseButton;
+/// Controls whether the back button shows its title from the form next to the chevron.
+/// The back button appears only on steps that have a <code>BACK</code> field. Default is <code>false</code> (chevron only).
+@property (nonatomic) BOOL showBackButtonTitle;
 /// The border style of the input fields. Default is <a href="https://developer.apple.com/documentation/uikit/uitextfield/borderstyle/roundedrect">.roundedRect</a>. Set to <a href="https://developer.apple.com/documentation/uikit/uitextfield/borderstyle/none">.none</a> for full customization.
 @property (nonatomic) enum UITextBorderStyle inputBorderStyle;
 /// The corner radius of the input fields. Default is 8 points. Applies only when <code>fieldBorderStyle</code> is <code>.none</code>.
@@ -913,6 +916,9 @@ SWIFT_CLASS_NAMED("FBSAppearance")
 /// Controls whether the close button is shown.
 /// If you set it to <code>false</code> then the process will not be able to be interrupted by the user.
 @property (nonatomic) BOOL showCloseButton;
+/// Controls whether the back button shows its title from the form next to the chevron.
+/// The back button appears only on steps that have a <code>BACK</code> field. Default is <code>false</code> (chevron only).
+@property (nonatomic) BOOL showBackButtonTitle;
 /// The border style of the input fields. Default is <a href="https://developer.apple.com/documentation/uikit/uitextfield/borderstyle/roundedrect">.roundedRect</a>. Set to <a href="https://developer.apple.com/documentation/uikit/uitextfield/borderstyle/none">.none</a> for full customization.
 @property (nonatomic) enum UITextBorderStyle inputBorderStyle;
 /// The corner radius of the input fields. Default is 8 points. Applies only when <code>fieldBorderStyle</code> is <code>.none</code>.
